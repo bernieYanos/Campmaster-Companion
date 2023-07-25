@@ -1,0 +1,113 @@
+/* Site-Wide Styles */
+
+:root {
+  --white: #fff;
+  --bg-color: #5e503f;
+  --accent-color: #a9927d;
+  --button-color: rgb(255, 0, 0);
+  --button-hover-color: rgb(245, 0, 0);
+  --button-active-color: rgb(235, 0, 0);
+}
+
+.btn-primary {
+  --bs-btn-color: var(--white);
+  --bs-btn-bg: var(--button-color);
+  --bs-btn-border-color: var(--button-color);
+  --bs-btn-hover-color: var(--white);
+  --bs-btn-hover-bg: var(--button-hover-color);
+  --bs-btn-hover-border-color: var(--button-hover-color);
+  --bs-btn-focus-shadow-rgb: var(--button-color);
+  --bs-btn-active-color: var(--white);
+  --bs-btn-active-bg: var(--button-active-color);
+  --bs-btn-active-border-color: var(--button-active-color);
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  top: 68px;
+  height: calc(100vh-68px);
+  position: relative;
+}
+
+/* Navbar */
+
+.mask-custom {
+  backdrop-filter: blur(1px);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+.navBtns {
+  --bs-btn-color: var(--white);
+  --bs-btn-hover-color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+/* Background */
+
+.logo_left {
+  position: fixed;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  margin-top: 68px;
+}
+
+.content_right {
+  position: absolute;
+  /* height: calc(100vh-68px); */
+  margin-top: 2rem;
+  margin-left: 15%;
+  width: 70%;
+}
+
+.logo_left img {
+  display: block;
+  margin: auto;
+}
+
+.bg {
+  background-color: #000;
+}
+
+.bg_top_left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Status Card */
+
+.card {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Form */
+
+form label {
+  color: #fff;
+  padding-top: 0.5rem;
+}
+
+.formbtns {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.form-check {
+  margin-bottom: -1rem;
+}
+
+#schedule-full-list input {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}

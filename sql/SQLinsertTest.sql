@@ -1,0 +1,48 @@
+INSERT INTO
+  CheckIn_t (`unitName`, `Council`, `Campsite`)
+VALUES
+  (
+    'Troop 531',
+    'Greater New York Councils',
+    'Brown Lodge'
+  ),
+  (
+    'Troop 531',
+    'Greater New York Councils',
+    'Pathfinder Lodge'
+  ),
+  (
+    'Troop 1814',
+    'Baltimore Area Council',
+    'Wicomico Lodge'
+  ),
+  (
+    'Troop 120',
+    'Cradle of Liberty Council',
+    'Wilderness Lodge'
+  ),
+  (
+    'Troop 52',
+    'Washington Crossing Council',
+    "Fisherman's Lodge"
+  ),
+  (
+    'Troop 109',
+    'Monmouth Council',
+    'Ranger Tent Site'
+  ),
+  (
+    'Pack 456',
+    'Baltimore Area Council',
+    'Accomac Lodge'
+  ),
+  (
+    'Pack 456',
+    'Baltimore Area Council',
+    'Minquas Lodge'
+  ),
+  (
+    'Troop 123',
+    'Iron Hill DelMarVa Council',
+    'Choptank Tent Site and Pavilion'
+  )
